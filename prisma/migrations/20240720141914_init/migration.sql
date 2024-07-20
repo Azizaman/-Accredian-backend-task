@@ -11,7 +11,7 @@ CREATE TABLE "Referral" (
     CONSTRAINT "Referral_pkey" PRIMARY KEY ("id")
 );
 
--- Insert sample entries
+
 INSERT INTO referrals (referrer, referee, email, course) VALUES
 ('Alice Smith', 'Bob Johnson', 'bob@example.com', 'Data Science'),
 ('John Doe', 'Jane Doe', 'jane@example.com', 'Web Development'),
